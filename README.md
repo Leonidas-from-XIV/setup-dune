@@ -38,8 +38,8 @@ jobs:
 
 The `version` can have the following special values:
 
-- `dev` for the Developer Preview, which is the default at the moment since
-  dune package management is still an experimental feature,
+- `dev` for the nightly build, which is the default at the moment since Dune
+  package management is still an experimental feature,
 - `latest` for the latest stable release.
 
 When `steps` is empty, the set of steps to run is set according to `automagic`.
